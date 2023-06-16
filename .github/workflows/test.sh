@@ -3,7 +3,7 @@
 # fail on non-zero return code from a subprocess
 set -e
 
-# download NC test location if the test needs the data and run tests
+# download North Carolina test location if the test needs the data and run tests
 if [ "$1" == "NC" ]
 then
   g.extension g.download.location
