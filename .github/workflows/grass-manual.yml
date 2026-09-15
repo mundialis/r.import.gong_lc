@@ -7,3 +7,7 @@ on:
 jobs:
   grass-manual:
     uses: mundialis/github-workflows/.github/workflows/grass-manual.yml@main
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
